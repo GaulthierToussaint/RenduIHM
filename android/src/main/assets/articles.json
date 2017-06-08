@@ -1,0 +1,63 @@
+{"articles": [
+  {
+    "srcImage": "livre",
+    "titre": "Marc Lévy - L'horizon à l'envers",
+    "price": "15",
+    "categorie": "Livre"
+  },
+  {
+    "srcImage": "livre_president",
+    "titre": "\"Ça ne devrait pas se dire président\"",
+    "price": "15",
+    "categorie": "Livre"
+  },
+  {
+    "srcImage": "dvd_sda",
+    "titre": "Le Seigneur des Anneaux 1 à 3",
+    "price": "29",
+    "categorie": "Dvd"
+  },
+  {
+    "srcImage": "dvd",
+    "titre": "Coffret Game Of Thrones saison 1",
+    "price": "47",
+    "categorie": "Dvd"
+  },
+  {
+    "srcImage": "dvd_sw",
+    "titre": "Coffret Star Wars 1 à 6",
+    "price": "49",
+    "categorie": "Dvd"
+  },
+  {
+    "srcImage": "gps",
+    "titre": "GPS TomTom®",
+    "price": "79",
+    "categorie": "High Tech"
+  },
+  {
+    "srcImage": "casque",
+    "titre": "Casque bluetooth Beats®",
+    "price": "89",
+    "categorie": "High Tech"
+  },
+  {
+    "srcImage": "bose",
+    "titre": "Enceinte Bose®",
+    "price": "219",
+    "categorie": "High Tech"
+  },
+  {
+    "srcImage": "ipad",
+    "titre": "iPad 9.7 pouces",
+    "price": "445",
+    "categorie": "High Tech"
+  },
+  {
+    "srcImage": "mac",
+    "titre": "iMac Pro",
+    "price": "2129",
+    "categorie": "High Tech"
+  }
+]
+}

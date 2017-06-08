@@ -1,0 +1,24 @@
+{"parrainages": [
+  {
+    "context": "Parrainer 1 personne",
+    "path": "homme1",
+    "reduction": "Bon d'achat de 5€"
+  },
+  {
+    "context": "Parrainer 2 personnes",
+    "path": "homme2",
+    "reduction": "Bon d'achat de 10€"
+  },
+  {
+    "context": "Parrainer 3 personnes",
+    "path": "homme3",
+    "reduction": "-5% de réduction"
+  },
+  {
+    "context": "Parrainer 5 personnes",
+    "path": "homme5",
+    "reduction": "-10% de réduction"
+  }
+
+]
+}

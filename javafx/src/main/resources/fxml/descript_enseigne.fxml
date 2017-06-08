@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.web.WebView?>
+
+<BorderPane maxHeight="716.0" maxWidth="1166.0" minHeight="716.0" minWidth="1166.0" prefHeight="716.0" BorderPane.alignment="TOP_RIGHT" xmlns="http://javafx.com/javafx/8.0.112-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.polytech.ihm.controller.DescriController">
+   <center>
+      <AnchorPane prefHeight="746.0" prefWidth="1272.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="241.0" fitWidth="422.0" layoutX="88.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/photos/magasin2.jpg" />
+               </image>
+            </ImageView>
+            <WebView fx:id="chartShopOpening" layoutX="556.0" layoutY="64.0" prefHeight="325.0" prefWidth="425.0" />
+            <ImageView fitHeight="241.0" fitWidth="422.0" layoutX="557.0" layoutY="421.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../images/photos/magasin3.jpg" />
+            </image>
+            </ImageView>
+            <LineChart fx:id="chartSales" layoutX="71.0" layoutY="325.0" prefHeight="325.0" prefWidth="425.0">
+              <xAxis>
+                <NumberAxis fx:id="xAxis" side="BOTTOM" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis fx:id="yAxis" side="LEFT" />
+              </yAxis>
+            </LineChart>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

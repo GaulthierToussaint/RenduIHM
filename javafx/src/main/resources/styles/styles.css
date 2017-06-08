@@ -1,0 +1,54 @@
+.buttonMenu {
+    -fx-border-color: black;
+    -fx-background-color: white;
+}
+.buttonMenu:hover{
+    -fx-min-width: 100px;
+}
+
+.boutonMap{
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+}
+
+.buttonPromo{
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.buttonPromo#promo1{
+    -fx-background-image: url("/images/articles/promo_1.png");
+    -fx-border-style: solid;
+}
+.buttonPromo#promo2{
+    -fx-background-image: url("/images/articles/promo_2.png");
+    -fx-border-style: solid;
+}
+.buttonPromo#promo3{
+    -fx-background-image: url("/images/articles/promo_3.png");
+    -fx-border-style: solid;
+}
+
+.old{
+    -fx-font-size: 15px;
+    -fx-fill: red;
+    -fx-strikethrough: true;
+}
+
+.label.new{
+    -fx-font-size: 17px;
+    -fx-text-fill: green;
+    -fx-font-weight: bold;
+}
+.menu-button {
+    -fx-border-style: solid;
+}
+.menu-button > .arrow-button {
+    -fx-padding: 0;
+}
+
+.menu-button > .arrow-button > .arrow {
+    -fx-padding: 0;
+}

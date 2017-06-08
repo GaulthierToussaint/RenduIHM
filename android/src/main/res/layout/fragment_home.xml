@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="toussaint.projet_android.fragment.HomeFragment">
+
+
+    <TextView
+        android:id="@+id/connectionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/connecte_en_tant"/>
+
+    <TextView
+        android:id="@+id/connectionValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textPoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_pointsFide"
+        android:layout_above="@+id/valuePromo" />
+
+    <TextView
+        android:id="@+id/valuePoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_below="@+id/connectionValue"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textPromo"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textPoints"
+        android:text="@string/home_parrainage" />
+
+    <TextView
+        android:id="@+id/valuePromo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_below="@+id/valuePoints"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textSolde"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_solde"
+        android:layout_below="@+id/valuePromo"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/valueSolde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/valuePromo"
+        android:textSize="20dp"
+        android:layout_alignEnd="@+id/valuePromo" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#FF909090"
+        android:id="@+id/view3"
+        android:layout_below="@id/valueSolde"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <ListView
+        android:id="@+id/listTwitter"
+        android:layout_below="@id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

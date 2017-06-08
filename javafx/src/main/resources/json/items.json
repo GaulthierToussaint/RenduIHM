@@ -1,0 +1,47 @@
+{"liste": [
+    {
+        "srcPromo": "images/promotion/50.png",
+        "srcImage": "images/articles/livre.jpg",
+        "categorie": "livre",
+        "labelDescri": "Marc Lévy",
+        "oldPrice": "34.90 \u20ac",
+        "labelTitle": "L'Horizon à l'envers",
+        "newPrice": "12.45 \u20ac"
+    },
+    {
+        "srcPromo": "images/promotion/30.png",
+        "srcImage": "images/articles/gps.jpg",
+        "categorie": "highTech",
+        "labelDescri": "Europe 48 pays",
+        "oldPrice": "98.99 \u20ac",
+        "labelTitle": "GPS TomTom",
+        "newPrice": "68.99 \u20ac"
+    },
+    {
+        "srcPromo": "images/promotion/40.png",
+        "srcImage": "images/articles/dvd.png",
+        "categorie": "dvd",
+        "labelDescri": "Coffret intégral de la saison 4",
+        "oldPrice": "35.50 \u20ac",
+        "labelTitle": "Game of Thrones",
+        "newPrice": "21.30 \u20ac"
+    },
+    {
+        "srcPromo": "images/promotion/50.png",
+        "srcImage": "images/articles/wiko.png",
+        "categorie": "highTech",
+        "labelDescri": "8 Go Double sim kaki",
+        "oldPrice": "139.98 \u20ac",
+        "labelTitle": "Smarthpone Wiko Sunny",
+        "newPrice": "69.99 \u20ac"
+    },
+    {
+        "srcPromo": "images/promotion/40.png",
+        "srcImage": "images/articles/book_50.png",
+        "categorie": "livre",
+        "labelDescri": "Cinquante nuances de Grey",
+        "oldPrice": "21.90 \u20ac",
+        "labelTitle": "Fifthy Shades - Tome 1",
+        "newPrice": "13.20 \u20ac"
+    }
+]}

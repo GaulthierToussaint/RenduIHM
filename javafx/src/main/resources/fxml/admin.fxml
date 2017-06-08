@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane fx:id="stage" maxHeight="716.0" maxWidth="1166.0" minHeight="716.0" minWidth="1166.0" prefHeight="716.0" prefWidth="1166.0" BorderPane.alignment="TOP_RIGHT" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.polytech.ihm.controller.AdminController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="77.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Administrateur" wrappingWidth="146.13672637939453">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="617.0" layoutX="65.0" layoutY="69.0" stroke="BLACK" strokeType="INSIDE" width="1017.0" />
+            <TextArea fx:id="textAreaOriginal" editable="false" layoutX="122.0" layoutY="158.0" prefHeight="439.0" prefWidth="404.0" />
+            <Text layoutX="123.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Version originale">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <TextArea fx:id="textAreaChange" layoutX="617.0" layoutY="158.0" prefHeight="436.0" prefWidth="404.0" />
+            <Text layoutX="617.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nouvelle version (modifiable) :">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <Button layoutX="731.0" layoutY="625.0" mnemonicParsing="false" onAction="#save" text="Sauvegarder la nouvelle version" />
+            <Button layoutX="123.0" layoutY="85.0" mnemonicParsing="false" onAction="#changeItem" text="Modifier la liste d'articles" />
+            <Button layoutX="294.0" layoutY="84.0" mnemonicParsing="false" onAction="#changeMagasins" text="Modifier la liste de boutiques" />
+            <Text fx:id="status" layoutX="934.0" layoutY="642.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+            <Button onAction="#addItem" layoutX="489.0" layoutY="84.0" mnemonicParsing="false" prefWidth="117.0" text="Ajouter un article" />
+            <Button onAction="#addMagasin" layoutX="631.0" layoutY="84.0" mnemonicParsing="false" text="Ajouter une boutique" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

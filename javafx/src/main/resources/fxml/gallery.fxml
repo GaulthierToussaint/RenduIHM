@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="716.0" maxWidth="1166.0" minHeight="716.0" minWidth="1166.0" prefHeight="716.0" prefWidth="1166.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.polytech.ihm.controller.GalleryController">
+   <children>
+      <ImageView fx:id="imageGallery" fitHeight="351.0" fitWidth="792.0" layoutX="231.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/produitsPhares/PF1.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="descriGallery" layoutX="84.0" layoutY="466.0" prefHeight="123.0" prefWidth="1028.0" wrapText="true">
+         <font>
+            <Font name="Calibri" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="titleGallery" layoutX="111.0" layoutY="438.0" prefHeight="28.0" prefWidth="300.0">
+         <font>
+            <Font name="Calibri Bold" size="23.0" />
+         </font>
+      </Label>
+      <Button fx:id="GalleryLeftButton" layoutX="116.0" layoutY="221.0" mnemonicParsing="false" onAction="#beforeImage" prefHeight="37.0" prefWidth="36.0" text="L">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="GalleryRightButton" layoutX="1029.0" layoutY="222.0" mnemonicParsing="false" onAction="#nextImage" prefHeight="37.0" prefWidth="36.0" text="R">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <MenuButton fx:id="menuLanguage" alignment="CENTER" layoutX="1113.0" mnemonicParsing="false" popupSide="LEFT" prefHeight="32.0" prefWidth="52.0">
+         <items>
+            <MenuItem fx:id="french" mnemonicParsing="false" onAction="#changeLanguage">
+               <graphic>
+                  <ImageView fitHeight="57.0" fitWidth="91.0">
+                     <image>
+                        <Image url="@../images/langues/drapeauFrance.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </graphic>
+            </MenuItem>
+            <MenuItem fx:id="english" mnemonicParsing="false" onAction="#changeLanguage">
+               <graphic>
+                  <ImageView fitHeight="57.0" fitWidth="91.0">
+                     <image>
+                        <Image url="@../images/langues/drapeauRU.jpg" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </graphic>
+            </MenuItem>
+         </items>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </MenuButton>
+   </children>
+</Pane>

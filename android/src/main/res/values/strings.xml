@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">To Be or To Have</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="newsGridFragmentTextView">Coucou from %1$d</string>
+    <string name="compte_param_notif">Activer notifications</string>
+    <string name="compte_param_textView">Paramètres</string>
+    <string name="switch_mode_nuit">Mode nuit automatique</string>
+    <string name="info_perso">Informations personnelles</string>
+    <string name="info_perso_points">Nombre de points de fidélité</string>
+    <string name="info_perso_parrain">Vous avez parrainé 3 personnes</string>
+    <string name="info_perso_parrain_button">Voir le programme de parrainage</string>
+    <string name="invite_ami">Invitez vos amis</string>
+    <string name="connecte_en_tant">Connecté en tant que</string>
+    <string name="home_pointsFide"> Points de fidélité</string>
+    <string name="home_parrainage"> Réduction parrainage</string>
+    <string name="compte_connection">Connecté en tant que</string>
+    <string name="button_deco">Déconnexion</string>
+    <string name="text_scanner">Scannez le QR code au dos de la carte</string>
+    <string name="choix_theme">Quel thème souhaitez-vous utiliser ?</string>
+    <string name="choix_notification">Vous ne receverez plus de notifications !</string>
+    <string name="notif_mail_1">Tu devrais essayer cette application !</string>
+    <string name="notif_mail_2">L\'application de l\'enseigne To Be or To Have vient juste de sortir !\nPour l\'installer va sur : \nhttp://www.tobeortohave.fr/mobileApp</string>
+    <string name="text_solde">Solde sur le compte</string>
+    <string name="affiche_qrcode">Vous avez crédité 10€ !</string>
+
+    <string-array name="array_tri">
+        <item>Prix croissant</item>
+        <item>Prix décroissant</item>
+    </string-array>
+
+    <string-array name="array_categorie">
+        <item>Tout</item>
+        <item>Livre</item>
+        <item>High Tech</item>
+        <item>Dvd</item>
+    </string-array>
+</resources>

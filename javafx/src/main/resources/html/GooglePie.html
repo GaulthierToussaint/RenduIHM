@@ -1,0 +1,35 @@
+<html>
+<head>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+        google.load('visualization', '1.0', {'packages':['corechart']});
+        google.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Année');
+            data.addColumn('number', 'Ouvertures');
+            data.addColumn({type: 'string', role: 'style'});
+            data.addRows([
+                ['2012', 12,'color: #CCFFCC'],
+                ['2013', 9, 'color: #FFFF99'],
+                ['2014', 21, 'color: #FFCC99'],
+                ['2015', 158, 'color: #FFFF00'],
+                ['2016', 359, 'color: #FFCC00']
+            ]);
+
+            var options = {'title':'Ouverture de magasins en France',
+                'width':400,
+                'height':300,
+                'legend': {position: 'none'}};
+
+            var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
+            chart.draw(data, options);
+        }
+    </script>
+</head>
+<body>
+<div id="chart_div"></div>
+</body>
+</html>

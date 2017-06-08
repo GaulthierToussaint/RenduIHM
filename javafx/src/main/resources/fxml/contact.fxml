@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxWidth="1166.0" minHeight="716.0" minWidth="1166.0" prefHeight="716.0" prefWidth="1166.0" BorderPane.alignment="CENTER" xmlns="http://javafx.com/javafx/8.0.112-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.polytech.ihm.controller.ContactController">
+   <bottom>
+      <AnchorPane prefHeight="240.0" prefWidth="1166.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="nom" layoutX="45.0" layoutY="16.0">
+               <font>
+                  <Font name="System Bold" size="41.0" />
+               </font>
+            </Label>
+            <Label fx:id="adresse" layoutX="45.0" layoutY="80.0">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="horaire" layoutX="45.0" layoutY="128.0">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="tel" layoutX="800.0" layoutY="80.0">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="email" layoutX="670.0" layoutY="129.0">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </bottom>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="454.0" fitWidth="1033.0" layoutX="44.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/photos/map.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="1" layoutX="528.0" layoutY="181.0" mnemonicParsing="false" onAction="#afficherMagasin" prefHeight="25.0" prefWidth="124.0" styleClass="boutonMap" visible="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="2" layoutX="390.0" layoutY="318.0" mnemonicParsing="false" onAction="#afficherMagasin" prefHeight="25.0" prefWidth="188.0" styleClass="boutonMap" visible="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="3" layoutX="277.0" layoutY="93.0" mnemonicParsing="false" onAction="#afficherMagasin" prefHeight="25.0" prefWidth="120.0" styleClass="boutonMap" visible="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="5" layoutX="260.0" layoutY="56.0" mnemonicParsing="false" onAction="#afficherMagasin" prefHeight="25.0" prefWidth="172.0" styleClass="boutonMap" visible="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="6" layoutX="592.0" layoutY="44.0" mnemonicParsing="false" onAction="#afficherMagasin" prefHeight="25.0" prefWidth="173.0" styleClass="boutonMap" visible="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="7" layoutX="364.0" layoutY="359.0" mnemonicParsing="false" onAction="#afficherMagasin" prefHeight="25.0" prefWidth="121.0" styleClass="boutonMap" visible="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="8" layoutX="687.0" layoutY="331.0" mnemonicParsing="false" onAction="#afficherMagasin" prefHeight="25.0" prefWidth="169.0" styleClass="boutonMap" visible="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="0" layoutX="746.0" layoutY="433.0" mnemonicParsing="false" onAction="#afficherMagasin" prefHeight="25.0" prefWidth="181.0" styleClass="boutonMap" visible="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="4" layoutX="209.0" layoutY="23.0" mnemonicParsing="false" onAction="#afficherMagasin" prefHeight="25.0" prefWidth="137.0" styleClass="boutonMap" visible="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

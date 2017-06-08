@@ -1,0 +1,59 @@
+{
+  "liste": [
+    {
+      "srcImage": "images/produitsPhares/PF1.jpg",
+      "labelTitleFr" : "Drone",
+      "labelDescriFr" : "To Be or To Have vous propose le dernier cri en matière de drone. À vous de créer vos propres panoramas aériens pour toutes vos créations ou encore pour vous faire d'incroyables souvenirs de voyage.",
+      "labelTitleEn" : "Drone",
+      "labelDescriEn" : "To Be or To Have offers you the latest in drone. It's up to you to create your own aerial panoramas for all your creations or to make incredible travel memories."
+    },
+    {
+      "srcImage": "images/produitsPhares/PF2.jpg",
+      "labelTitleFr" : "Dyson",
+      "labelDescriFr" : "To Be or To Have propose aussi le dernier cri en matière d'éléctroménager",
+      "labelTitleEn" : "Dyson",
+      "labelDescriEn" : "To Be or To Have also offers the latest in household appliances"
+    },
+    {
+      "srcImage": "images/produitsPhares/PF3.jpg",
+      "labelTitleFr" : "Casque",
+      "labelDescriFr" : "Profitez de votre musique préférée partout",
+      "labelTitleEn" : "Headphone",
+      "labelDescriEn" : "Enjoy your favorite music everywhere"
+    },
+    {
+      "srcImage": "images/produitsPhares/PF4.jpg",
+      "labelTitleFr" : "Enceinte",
+      "labelDescriFr" : "Partagez votre musique préférée facilement et n'importe quand",
+      "labelTitleEn" : "Speakers",
+      "labelDescriEn" : "Share your favorite music easily and anytime"
+    },
+    {
+      "srcImage": "images/produitsPhares/PF5.jpg",
+      "labelTitleFr" : "Ordinateur portable",
+      "labelDescriFr" : "To Be or To Have propose aussi une large gamme d'ordinateurs portables",
+      "labelTitleEn" : "Laptop",
+      "labelDescriEn" : "To Be or To Have also offers a wide range of laptops"
+    },
+    {
+      "srcImage": "images/produitsPhares/PF7.jpg",
+      "labelTitleFr" : "Smartphone",
+      "labelDescriFr" : "Retrouvez aussi les smartphones les plus performants",
+      "labelTitleEn" : "Smartphone",
+      "labelDescriEn" : "Find the most powerful smartphones among us"
+    },
+    {
+      "srcImage": "images/produitsPhares/PF8.jpg",
+      "labelTitleFr" : "Petit canard",
+      "labelDescriFr" : "Car le bluetooth offre tellement de possibilités",
+      "labelTitleEn" : "Little duck",
+      "labelDescriEn" : "Because bluetooth offers so many possibilities"
+    },
+    {
+      "srcImage": "images/produitsPhares/PF9.jpg",
+      "labelTitleFr" : "Manette ps4",
+      "labelDescriFr" : "Les gamers ne sont pas en reste et trouveront leur bonheur avec les dernières consoles de jeux",
+      "labelTitleEn" : "Ps4 controller",
+      "labelDescriEn" : "Gamers are not left behind and will find their happiness with the latest game consoles"
+    }]
+}

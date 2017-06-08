@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View android:id="@+id/strut"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Spinner
+        android:id="@+id/spinnerTri"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:dropDownVerticalOffset="50dp"
+        android:layout_alignRight="@id/strut"
+        android:layout_alignParentLeft="true"
+        android:textAlignment="center"/>
+
+    <Spinner
+        android:id="@+id/spinnerCategorie"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:dropDownVerticalOffset="50dp"
+        android:layout_alignParentRight="true"
+        android:textAlignment="center"
+        android:layout_toEndOf="@+id/spinnerTri" />
+
+    <GridView
+        android:id="@+id/gridViewProduit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/spinnerTri" />
+
+</RelativeLayout>
